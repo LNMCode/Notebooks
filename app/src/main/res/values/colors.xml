@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="c1">#0C5A42</color>
+    <color name="c2">#FA8704</color>
+    <color name="c3">#AEAEAE</color>
+    <color name="nav_color_types">#D3D3D3</color>
+    <color name="c0">#FFFFFF</color>
+    <color name="c4">#D3D3D3</color>
+    <color name="c5">#0D5D44</color>
+    <color name="c6">#03130E</color>
+    <color name="colorGrayOpacity">#14707070</color>
+
+</resources>

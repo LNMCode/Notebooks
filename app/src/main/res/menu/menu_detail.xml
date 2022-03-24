@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app= "http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/ic_edit"
+        android:icon="@drawable/ic_edit"
+        android:title="Edit"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/ic_read"
+        android:icon="@drawable/ic_book"
+        android:title="Read"
+        app:showAsAction="always"/>
+
+    <group>
+        <item
+            android:id="@+id/item_menu_tick"
+            android:icon="@drawable/tick"
+            android:title="Tick"
+            app:showAsAction="never" />
+
+        <item
+            android:id="@+id/item_menu_edit_tag"
+            android:icon="@drawable/tick"
+            android:title="Edit tag"
+            app:showAsAction="never" />
+
+        <item
+            android:id="@+id/item_menu_remove"
+            android:icon="@drawable/tick"
+            android:title="Remove"
+            app:showAsAction="never" />
+    </group>
+
+</menu>

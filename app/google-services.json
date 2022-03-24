@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "614366384918",
+    "firebase_url": "https://notebooks-f9113.firebaseio.com",
+    "project_id": "notebooks-f9113",
+    "storage_bucket": "notebooks-f9113.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:614366384918:android:d1102c2e13680b656db637",
+        "android_client_info": {
+          "package_name": "com.example.notebooks"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "614366384918-r0u8av66vjcp1830ds4ij50ras1tc0j5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.notebooks",
+            "certificate_hash": "f514d04432bacc224b75cadd9771c443efb733bb"
+          }
+        },
+        {
+          "client_id": "614366384918-j687kq36n9cg0q7rerlket36qjlgvuq9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvWLnI9dtF1c46kaDgoNeIXYGISPOXtso"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "614366384918-j687kq36n9cg0q7rerlket36qjlgvuq9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

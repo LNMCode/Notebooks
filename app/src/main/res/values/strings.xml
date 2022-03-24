@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Notebooks</string>
+    <string name="search">Search</string>
+    <string name="menu_popup">Menu Popup</string>
+    <string name="gallerys">Gallery</string>
+    <string name="profile">Profile</string>
+    <string name="title">My Notes</string>
+    <string name="drawerOpen">Open</string>
+    <string name="drawerClose">Close</string>
+    <string name="lorem">Without a doubt, summer is the most anticipated season of the year,and whether or not it’s your favorite.
+        Without a doubt, summer is the most anticipated season of the year,and whether or not it’s your favorite.
+        Without a doubt, summer is the most anticipated season of the year,and whether or not it’s your favorite.
+        Without a doubt, summer is the most anticipated season of the year,and whether or not it’s your favorite.
+        Without a doubt, summer is the most anticipated season of the year,and whether or not it’s your favorite.</string>
+
+    <string name="head_line_welcome">Welcome to StickMe Note</string>
+    <string name="hint_detail_note">Title</string>
+    <string name="head_line_1_forgot_pass">Forget password</string>
+    <string name="head_line_2_forgot_pass">Provide your account\'s email for which you want to reset your password!</string>
+    <string name="hint_email">EMAIL ADDRESS</string>
+    <string name="hint_pass">PASSWORD</string>
+    <string name="hint_confirm_pass">CONFIRM PASSWORD</string>
+    <string name="sign_in_title">Sign in!</string>
+    <string name="sign_up_title">Sign up!</string>
+    <string name="btn_remember">Remember me!</string>
+    <string name="btn_forgot_pass">Forgot password?</string>
+    <string name="btn_sign_in">Sign in</string>
+    <string name="btn_sign_up">Sign up</string>
+
+    <string name="text_btn_next_forgot">Next</string>
+    <string name="trash">Thùng rác</string>
+    <string name="tag">Tag</string>
+    <string name="all_note">Tất cả ghi chú</string>
+    <string name="title_version">Version</string>
+    <string name="title_memory">Memory</string>
+    <string name="title_language">Language</string>
+    <string name="title_github">Git</string>
+    <string name="title_url_github">Logout</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="title">28sp</dimen>
+    <dimen name="margin">10dp</dimen>
+    <dimen name="radius">10dp</dimen>
+    <dimen name="text_size">14sp</dimen>
+    <dimen name="padding_right">10dp</dimen>
+    <dimen name="size_title">16dp</dimen>
+    <dimen name="padding">10dp</dimen>
+    <dimen name="padding_left">10dp</dimen>
+    <dimen name="fab_margin">30dp</dimen>
+</resources>

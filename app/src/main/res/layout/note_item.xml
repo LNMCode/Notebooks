@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    style="@style/Base.TextAppearance.AppCompat.Headline"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:background="@color/c2"
+    android:maxHeight="200dp"
+    android:orientation="vertical"
+    android:padding="@dimen/margin"
+    app:cardCornerRadius="@dimen/radius"
+    app:cardElevation="3dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="3">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/txt_title"
+                style="@style/TextAppearance.AppCompat.Headline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:layout_marginTop="15dp"
+                android:maxHeight="60dp"
+                android:maxLines="2"
+                android:paddingLeft="10dp"
+                android:text="Quản lý dự án"
+                android:textSize="@dimen/size_title"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_below="@+id/txt_title"
+                android:id="@+id/text_create_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:textSize="12sp"
+                android:paddingLeft="10dp"
+                android:text="asdasdad"
+                android:textColor="@color/c3" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txt_content"
+                style="@style/TextAppearance.MaterialComponents.Subtitle1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:maxLength="200"
+                android:maxLines="8"
+                android:padding="10dp"
+                android:text="@string/lorem"
+                android:textAlignment="viewStart"
+                android:textSize="@dimen/text_size"
+                android:textStyle="normal"
+                card_view:ignore="RtlCompat" />
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

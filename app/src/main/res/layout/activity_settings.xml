@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_setting"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    tools:context=".SettingActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/setting_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@color/c5"
+        app:elevation="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:titleTextColor="@color/c5"
+        tools:ignore="MissingConstraints" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="top"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/padding"
+        android:weightSum="10">
+
+        <!--    Version -->
+        <LinearLayout
+            android:id="@+id/linearLayouVersion"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="@dimen/padding_left"
+            android:layout_marginRight="@dimen/padding_right"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/imageViewVersion"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:src="@drawable/icon_version" />
+
+            <TextView
+                android:id="@+id/textViewTitleVersion"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="3"
+                android:gravity="center_vertical"
+                android:text="@string/title_version"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/textViewVersion"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:paddingRight="10dp"
+                android:text="Sương sương"
+                android:textAlignment="textEnd"
+                android:textSize="12dp"
+                tools:ignore="RtlCompat" />
+
+            />
+        </LinearLayout>
+
+        <!--    Memory-->
+        <LinearLayout
+            android:id="@+id/linearLayoutMemory"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="@dimen/padding_left"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="@dimen/padding_right"
+            android:layout_marginBottom="5dp"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/imageViewMemory"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:src="@drawable/icon_language" />
+
+            <TextView
+                android:id="@+id/textViewTitleMemory"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="3"
+                android:gravity="center_vertical"
+                android:text="@string/title_memory"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/textViewMemory"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:paddingRight="10dp"
+                android:text="n.mGB"
+                android:textAlignment="textEnd"
+                android:textSize="12dp"
+                tools:ignore="RtlCompat" />
+
+            />
+        </LinearLayout>
+
+        <!--    Language-->
+        <LinearLayout
+            android:id="@+id/linearLayoutLanguage"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="@dimen/padding_left"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="@dimen/padding_right"
+            android:layout_marginBottom="5dp"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/imageViewLanguage"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:src="@drawable/icon_language" />
+
+            <TextView
+                android:id="@+id/textViewTitleLanguage"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="3"
+
+                android:gravity="center_vertical"
+                android:text="@string/title_language"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/textViewLanguage"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:paddingRight="10dp"
+                android:text="English"
+                android:textAlignment="textEnd"
+                android:textSize="12dp"
+                tools:ignore="RtlCompat" />
+
+            />
+        </LinearLayout>
+
+        <!--    Github-->
+        <LinearLayout
+            android:id="@+id/linearLayoutTwentyMinute"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="@dimen/padding_left"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="@dimen/padding_right"
+            android:layout_marginBottom="5dp"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/radioTwentyMinute"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:src="@drawable/icon_git" />
+
+            <TextView
+                android:id="@+id/textViewTitleGithub"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="3"
+
+                android:gravity="center_vertical"
+                android:text="@string/title_github"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/textViewGithub"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:paddingRight="10dp"
+                android:text="@string/title_url_github"
+                android:textAlignment="textEnd"
+                android:textSize="12dp"
+                tools:ignore="RtlCompat" />
+
+            />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

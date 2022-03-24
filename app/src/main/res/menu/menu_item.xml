@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/all_note"
+            android:checkable="true"
+            android:checked="true"
+            android:icon="@drawable/all_note"
+            android:title="@string/all_note" />
+        <item
+            android:id="@+id/tag"
+            android:checkable="true"
+            android:icon="@drawable/icon_tag"
+            android:title="@string/tag" />
+        <item
+            android:id="@+id/trash"
+            android:checkable="true"
+            android:icon="@drawable/icon_trash"
+            android:title="@string/trash" />
+        <item
+            android:id="@+id/profile"
+            android:checkable="true"
+            android:icon="@drawable/information"
+            android:title="@string/profile" />
+    </group>
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:checkable="true"
+                android:icon="@drawable/logo"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:checkable="true"
+                android:icon="@drawable/logo"
+                android:title="Send" />
+        </menu>
+    </item>
+</menu>
